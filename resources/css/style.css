@@ -1,33 +1,23 @@
-* {background-color: black}
-* {font-family: verdana}
+body {
+  background-color: black;
+  text-align: center;
+  font-family: "Verdana", sans-serif;
+  color: white;
+}
 
 h1 {
-    color: #FFFFFF;
     font-size: 50px;
     font-weight: normal;
-    text-align: center;
 }
 
 h2 {
-    color: #FFFFFF;
     font-weight: 300;
     font-size: 42px;
-    text-align: center;
 }
 
-video, img {
-    display: block;
-    margin: 0 auto;
-}
-
-.remembers {
+p {
     color: gray;
-    text-align: center;
     font-size: 21px;
-}
-
-.comingsoon {
-    text-align: center;
 }
 
 .comingsoonlink {
@@ -36,6 +26,5 @@ video, img {
 }
 
 .footer {
-    color: gray;
     text-align: right;
 }
